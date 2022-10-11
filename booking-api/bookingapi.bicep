@@ -30,7 +30,7 @@ resource appService 'Microsoft.Web/sites@2020-06-01' = {
       appSettings:[
         {
           name:'sqldb'
-          value:'Data Source=adkwolekbookingapiserv.database.windows.net;Initial Catalog=bookingAPIdb;Integrated Security=False;User Id=adminusername;Password=Qwerty12!;MultipleActiveResultSets=True;'
+          value:'Data Source=adkwoleksql.database.windows.net;Initial Catalog=adkwolekDB;Integrated Security=False;User Id=admminuser;Password=Qwerty12!;MultipleActiveResultSets=True;'
         }
       ]
 
